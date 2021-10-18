@@ -24,3 +24,9 @@ console.log(!!null)
 console.log(!!NaN)
 console.log(!!undefined)
 console.log(!!(isAtivo = false))
+
+console.log('para finalizar...')
+console.log(!!!('' || null || 0 || ''))
+
+let nome = 'Lucas'
+console.log(nome || 'Desconhecido')
